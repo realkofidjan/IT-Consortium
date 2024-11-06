@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: SQS-triggered Lambda function template
+
+Resources:
+  UserActionQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: user-action-queue
+
+  UserActionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: UserActionProcessor
+      Handler: App/main.lambda_handler
+      Runtime: python3.10
+      CodeUri: .
+      Timeout: 600
+      MemorySize: 512
+      Policies:
+        - SQSReadPolicy:
+            QueueName: !GetAtt UserActionQueue.QueueName
+      Environment:
+        Variables:
+          QUEUE_URL: !Ref UserActionQueue
+      Events:
+        SQSEvent:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt UserActionQueue.Arn
+            BatchSize: 10
+
+Outputs:
+  UserActionQueueUrl:
+    Description: "URL of the SQS queue"
+    Value: !Ref UserActionQueue
+
+  UserActionQueueArn:
+    Description: "ARN of the SQS queue"
+    Value: !GetAtt UserActionQueue.Arn
