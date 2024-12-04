@@ -6,14 +6,17 @@ def controller(event):
     """
     AWS Lambda handler for processing SQS messages and invoking user actions.
     """
-    # Initialize the responses list to collect all responses for each record
     responses = []
     
-    # Process each record from the SQS event
     for record in event.get("Records", []):
         try:
-            # Parse the message body
-            message_body = json.loads(record["body"])
+            body = record["body"]
+            # Check if the body is a string and load it if necessary
+            if isinstance(body, str):
+                message_body = json.loads(body)
+            else:
+                message_body = body  # Already a dict, no need to load it
+
             action = message_body.get("action")
 
             if not action:
@@ -24,10 +27,8 @@ def controller(event):
                 })
                 continue
 
-            # Call the user_controller's function to handle the action
-            response, status_code = user_handler(message_body)  # This invokes the action handler
+            response, status_code = user_handler(message_body)
 
-            # Add the response to the list
             responses.append({
                 "statusCode": status_code,
                 "body": json.dumps(response)
@@ -40,9 +41,6 @@ def controller(event):
                 "body": json.dumps({"error": "Internal server error"})
             })
 
-    # Return the final response containing all processed records
     return {
         "body": json.dumps(responses)
     }
-    
-

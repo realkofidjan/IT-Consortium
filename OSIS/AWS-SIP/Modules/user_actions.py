@@ -21,6 +21,8 @@ def user_handler(payload):
         return handle_create(payload)
     elif action_type == "update":
         return handle_update(payload)
+    elif action_type == "forgot":
+        return handle_forgot_password(payload)
     else:
         return {"error": "Invalid action"}, 400
 
@@ -83,3 +85,36 @@ def handle_update(payload):
     except requests.exceptions.RequestException as e:
         logging.error(f"Request failed: {e}")
         return {"error": "Failed to connect to the external API"}, 500
+    
+def handle_forgot_password(payload):
+    """
+    Handle the 'forgot_password' action.
+    """
+    logging.info(f"Sending data to {url}: {payload}")
+
+    try:
+        response = requests.post(url, json=payload)
+
+        if response.status_code == 200:
+            logging.info("Password reset email sent successfully")
+            return {
+                "statusCode": 200,
+                "message": "Password reset email sent successfully.",
+                "ResponseMetadata": {
+                    "HTTPStatusCode": response.status_code,
+                    "RequestId": response.headers.get("x-amzn-requestid", "N/A")
+                },
+            }
+        else:
+            logging.error(f"Error sending password reset email: {response.text}")
+            return {
+                "statusCode": response.status_code,
+                "error": "Failed to send password reset email",
+                "details": response.text,
+            }
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Request failed: {e}")
+        return {
+            "statusCode": 500,
+            "error": "Failed to connect to the external API"
+        }
