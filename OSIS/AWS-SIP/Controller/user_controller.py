@@ -7,18 +7,11 @@ def controller(event):
     AWS Lambda handler for processing SQS messages and invoking user actions.
     """
     responses = []
-    
+
     for record in event.get("Records", []):
         try:
-            body = record["body"]
-            # Check if the body is a string and load it if necessary
-            if isinstance(body, str):
-                message_body = json.loads(body)
-            else:
-                message_body = body  # Already a dict, no need to load it
-
+            message_body = json.loads(record["body"])
             action = message_body.get("action")
-
             if not action:
                 logging.error("Action not found in message body")
                 responses.append({

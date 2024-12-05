@@ -1,0 +1,15 @@
+{
+    "Records": [
+        {
+            "body": "{\"action\": \"create\", \"email\": \"joshua@gmail.com\", \"given_name\": \"Joshua\", \"family_name\": \"Osei\", \"phone_number\": \"+233200929118\", \"status\": \"active\", \"group\": \"osis\", \"institution\": \"University of Ghana\", \"picture\": \"https://www.google.com/imgres? ...\"}"
+        }
+        ,
+        {
+            "body": "{\"action\": \"update\", \"email\": \"joshua@gmail.com\", \"given_name\": \"Joshua\", \"family_name\": \"Osei\", \"phone_number\": \"+233200929118\", \"status\": \"active\", \"group\": \"osis\", \"institution\": \"University of Ghana\", \"picture\": \"https://www.google.com/imgres? ...\"}"
+        }
+        ,
+        {
+            "body": "{\"action\": \"login\", \"username\": \"josei@itconsortiumgh.com\", \"password\": \"TempPassword@123\"}"
+        }
+    ]
+}

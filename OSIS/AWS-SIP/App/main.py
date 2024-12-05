@@ -7,5 +7,3 @@ logging.basicConfig(level=logging.INFO)
 def lambda_handler(event, context):
     
     return controller(event)
-    
-   
