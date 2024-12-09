@@ -14,5 +14,10 @@
         {
             "body": "{\"action\": \"forgot\", \"email\": \"josei@itconsortiumgh.com\"}"
         }
+        ,
+        {
+            "body": "{\"action\": \"delete\", \"email\": \"josei@itconsortiumgh.com\"}"
+        }
+        
     ]
 }

@@ -65,8 +65,6 @@ def test_lambda_handler(mock_put, mock_post):
     response = lambda_handler(test_event, None)
 
     response_body = json.loads(response["body"])
-    for item in response_body:
-        print(item)
 
     for i, record in enumerate(test_event["Records"]):
         record_body = json.loads(record["body"])
@@ -88,5 +86,9 @@ def test_lambda_handler(mock_put, mock_post):
         elif action == "login":
             assert "ChallengeParameters" in details, f"ChallengeParameters not found in response details: {details}"
         elif action == "forgot":
+            assert "CodeDeliveryDetails" in details, f"CodeDeliveryDetails not found in response details: {details}"
+        elif action == "delete":
+            assert "ResponseMetadata" in details, f"ResponseMetadata not found in response details: {details}"
+        elif action == "resend-verification":
             assert "CodeDeliveryDetails" in details, f"CodeDeliveryDetails not found in response details: {details}"
             
