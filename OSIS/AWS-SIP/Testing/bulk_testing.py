@@ -11,13 +11,18 @@ def populate_template(template, request_data):
             if key in request_data:
                 attribute["Value"] = request_data[key]
         template["User"]["Username"] = request_data.get("user_id", "")
-    elif "ChallengeParameters" in template:
-        template["ChallengeParameters"]["USER_ID_FOR_SRP"] = request_data.get("user_id", "")
-        user_attributes = {key: request_data[key] for key in ["email", "phone", "first_name", "last_name", "picture", "status"] if key in request_data}
+    elif "ChallengeParameters" in template and "userAttributes" in template["ChallengeParameters"]:
+        # Parse the userAttributes JSON string into a dictionary
+        user_attributes = json.loads(template["ChallengeParameters"]["userAttributes"])
+        for key in request_data:
+            if key in user_attributes:
+                user_attributes[key] = request_data[key]
+        # Convert the updated dictionary back to a JSON string
         template["ChallengeParameters"]["userAttributes"] = json.dumps(user_attributes)
     elif "CodeDeliveryDetails" in template:
         template["CodeDeliveryDetails"]["Destination"] = request_data.get("email", "")
     return template
+
 
 def dynamic_response(request_data):
     action = request_data.get("action")
@@ -25,10 +30,10 @@ def dynamic_response(request_data):
         response_data = populate_template(get_create_response_template(), request_data)
         return create_mock_response(response_data, 200)
     elif action == "update":
-        response_data = get_update_response_template()
+        response_data = populate_template(get_update_response_template(), request_data)
         return create_mock_response(response_data, 200)
     elif action == "login":
-        response_data = get_login_response_template()
+        response_data = populate_template(get_login_response_template(), request_data)
         return create_mock_response(response_data, 200)
     return create_mock_response({"error": "Invalid action"}, 400)
 

@@ -98,30 +98,7 @@ def handle_login(payload):
 
         if response.status_code == 200:
             logging.info("User logged in successfully")
-            
-            # Assuming that the ChallengeParameters are dynamic and depend on the payload or other logic
-            challenge_parameters = {
-                "USER_ID_FOR_SRP": "72059404-c0b1-7058-fd93-19fa6c9cad66",  # Example static value
-                "requiredAttributes": "[]",  # Empty list as a string (example)
-                "userAttributes": json.dumps({
-                    "custom:status": "active",
-                    "phone_number": "+233208283735",
-                    "given_name": "Joshua",
-                    "family_name": "Jason",
-                    "email": payload.get("username"),
-                    "picture": "https://transflow-auth-test-bucket.s3.amazonaws.com/pngtree-user-profile-avatar-png-image_13369988.png"
-                })
-            }
-
-            return {
-                "ChallengeName": "NEW_PASSWORD_REQUIRED",
-                "ChallengeParameters": challenge_parameters,
-                "ResponseMetadata": {
-                    "HTTPStatusCode": response.status_code,
-                    "RequestId": response.headers.get("x-amzn-requestid", "N/A")
-                },
-                "Session": "SESSION_ID"  # Use appropriate session id or dynamic value
-            }, 200
+            return response.json(), 200
         else:
             logging.error(f"Error logging in user: {response.text}")
             return {
