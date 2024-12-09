@@ -90,3 +90,82 @@ def get_forgot_password_response_template():
     "RetryAttempts": 0
   }
 }
+    
+def get_forgot_password_response_template():
+    return {
+        "CodeDeliveryDetails": {
+            "AttributeName": "email",
+            "DeliveryMedium": "EMAIL",
+            "Destination": ""
+        },
+        "ResponseMetadata": {
+            "HTTPHeaders": {
+                "connection": "keep-alive",
+                "content-length": "100",
+                "content-type": "application/x-amz-json-1.1",
+                "date": "Thu, 17 Oct 2024 13:44:32 GMT",
+                "x-amzn-requestid": "c32fda87-2e74-45fb-a54f-1fa39f33885e"
+            },
+            "HTTPStatusCode": 200,
+            "RequestId": "c32fda87-2e74-45fb-a54f-1fa39f33885e",
+            "RetryAttempts": 0
+        }
+    }
+    
+def get_forgot_response_template():
+    return {
+        "CodeDeliveryDetails": {
+            "AttributeName": "email",
+            "DeliveryMedium": "EMAIL",
+            "Destination": ""
+        },
+        "ResponseMetadata": {
+            "HTTPHeaders": {
+                "connection": "keep-alive",
+                "content-length": "100",
+                "content-type": "application/x-amz-json-1.1",
+                "date": "Thu, 17 Oct 2024 13:44:32 GMT",
+                "x-amzn-requestid": "c32fda87-2e74-45fb-a54f-1fa39f33885e"
+            },
+            "HTTPStatusCode": 200,
+            "RequestId": "c32fda87-2e74-45fb-a54f-1fa39f33885e",
+            "RetryAttempts": 0
+        }
+    }
+    
+def get_delete_response_template():
+    return {
+        "ResponseMetadata": {
+            "HTTPHeaders": {
+                "connection": "keep-alive",
+                "content-length": "0",
+                "content-type": "application/x-amz-json-1.1",
+                "date": "Fri, 18 Oct 2024 11:38:00 GMT",
+                "x-amzn-requestid": "f3a6b9e0-2b3e-4e6d-9f6e-2e9c3c2f1d0d"
+            },
+            "HTTPStatusCode": 200,
+            "RequestId": "f3a6b9e0-2b3e-4e6d-9f6e-2e9c3c2f1d0d",
+            "RetryAttempts": 0
+        }
+    }
+
+def get_resend_response_template():
+    return {
+        "CodeDeliveryDetails": {
+            "AttributeName": "email",
+            "DeliveryMedium": "EMAIL",
+            "Destination": ""
+        },
+        "ResponseMetadata": {
+            "HTTPHeaders": {
+                "connection": "keep-alive",
+                "content-length": "100",
+                "content-type": "application/x-amz-json-1.1",
+                "date": "Fri, 18 Oct 2024 11:38:00 GMT",
+                "x-amzn-requestid": "f3a6b9e0-2b3e-4e6d-9f6e-2e9c3c2f1d0d"
+            },
+            "HTTPStatusCode": 200,
+            "RequestId": "f3a6b9e0-2b3e-4e6d-9f6e-2e9c3c2f1d0d",
+            "RetryAttempts": 0
+        }
+    }

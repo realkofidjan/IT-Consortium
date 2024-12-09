@@ -12,12 +12,10 @@ def populate_template(template, request_data):
                 attribute["Value"] = request_data[key]
         template["User"]["Username"] = request_data.get("user_id", "")
     elif "ChallengeParameters" in template and "userAttributes" in template["ChallengeParameters"]:
-        # Parse the userAttributes JSON string into a dictionary
         user_attributes = json.loads(template["ChallengeParameters"]["userAttributes"])
         for key in request_data:
             if key in user_attributes:
                 user_attributes[key] = request_data[key]
-        # Convert the updated dictionary back to a JSON string
         template["ChallengeParameters"]["userAttributes"] = json.dumps(user_attributes)
     elif "CodeDeliveryDetails" in template:
         template["CodeDeliveryDetails"]["Destination"] = request_data.get("email", "")
@@ -34,6 +32,15 @@ def dynamic_response(request_data):
         return create_mock_response(response_data, 200)
     elif action == "login":
         response_data = populate_template(get_login_response_template(), request_data)
+        return create_mock_response(response_data, 200)
+    elif action == "forgot":
+        response_data = populate_template(get_forgot_password_response_template(), request_data)
+        return create_mock_response(response_data, 200)
+    elif action == "delete":
+        response_data = populate_template(get_delete_response_template(), request_data)
+        return create_mock_response(response_data, 200)
+    elif action == "resend-verification":
+        response_data = populate_template(get_resend_response_template(), request_data)
         return create_mock_response(response_data, 200)
     return create_mock_response({"error": "Invalid action"}, 400)
 
@@ -64,7 +71,7 @@ def test_lambda_handler(mock_put, mock_post):
     for i, record in enumerate(test_event["Records"]):
         record_body = json.loads(record["body"])
         action = record_body.get("action")
-        expected_status_code = 200 if action in ["create", "update", "login"] else 400
+        expected_status_code = 200 if action in ["create", "update", "login", "forgot", "delete", "resend-verification"] else 400
         assert response_body[i]["statusCode"] == expected_status_code
         
         response_details = json.loads(response_body[i]["body"])
@@ -80,3 +87,6 @@ def test_lambda_handler(mock_put, mock_post):
             assert "ResponseMetadata" in details, f"ResponseMetadata not found in response details: {details}"
         elif action == "login":
             assert "ChallengeParameters" in details, f"ChallengeParameters not found in response details: {details}"
+        elif action == "forgot":
+            assert "CodeDeliveryDetails" in details, f"CodeDeliveryDetails not found in response details: {details}"
+            

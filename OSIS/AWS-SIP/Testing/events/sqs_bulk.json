@@ -10,6 +10,9 @@
         ,
         {
             "body": "{\"action\": \"login\", \"username\": \"josei@itconsortiumgh.com\", \"password\": \"TempPassword@123\"}"
+        },
+        {
+            "body": "{\"action\": \"forgot\", \"email\": \"josei@itconsortiumgh.com\"}"
         }
     ]
 }
