@@ -1,6 +1,5 @@
 [
-
-    //STUDENT MANAGEMENT MODULE
+    // STUDENT MANAGEMENT MODULE
     {
         "name":"Dashboard",
         "keywords":["dashboard","overall summary"],
@@ -11,7 +10,7 @@
     },
     {
         "name":"Add Student",
-        "keywords":["add Student","create student","register student"],
+        "keywords":["add student","create student","register student"],
         "description":"Create student records in OSIS",
         "permissions_allowed":["permission"],
         "url":"/students/add",
@@ -19,7 +18,7 @@
     },
     {
         "name":"Bulk Upload",
-        "keywords":"bulk, bulk upload, bulk photos, bulk affiliation, affilation upload, upload students",
+        "keywords":["bulk","bulk upload","bulk photos","bulk affiliation","affiliation upload","upload students"],
         "description":"Upload students, photos, and affiliations in bulk",
         "permissions_allowed":["permission"],
         "url":"/students/student-imports",
@@ -27,80 +26,76 @@
     },
     {
         "name":"Find Student",
-        "keywords":"",
-        "description":"",
+        "keywords":["find student","search student","view student","lookup student","student profile"],
+        "description":"Search and view student profiles",
         "permissions_allowed":["permission"],
         "url":"/students/profiles",
         "module":"Student Management"
     },
     {
         "name":"Change Program",
-        "keywords":"",
-        "description":"",
+        "keywords":["change program","update program","program transfer","switch program"],
+        "description":"Update or transfer a student’s academic program",
         "permissions_allowed":["permission"],
         "url":"/students/change-program",
         "module":"Student Management"
     },
     {
         "name":"Change Status",
-        "keywords":"",
-        "description":"",
+        "keywords":["change status","update status","student status","status modification"],
+        "description":"Change or update a student’s academic status (e.g., active, deferred, withdrawn)",
         "permissions_allowed":["permission"],
         "url":"/students/change-status",
         "module":"Student Management"
     },
     {
         "name":"Bulk Detail Update",
-        "keywords":"",
-        "description":"",
+        "keywords":["bulk update","student bulk edit","update multiple","mass edit","student details update"],
+        "description":"Update details for multiple students at once",
         "permissions_allowed":["permission"],
         "url":"/students/bulk-detail-update",
         "module":"Student Management"
     },
     {
         "name":"Manual Regnumber Re-Generator",
-        "keywords":"",
-        "description":"",
+        "keywords":["regenerate reg number","manual registration number","reassign regnumber","update regnumber"],
+        "description":"Manually regenerate or reassign student registration numbers",
         "permissions_allowed":["permission"],
         "url":"/students/regnumber-re-generator",
         "module":"Student Management"
     },
     {
         "name":"Certification",
-        "keywords":"",
-        "description":"",
-        "permission_allowed":["permission"],
+        "keywords":["certification","generate certificate","student certificate","document certification"],
+        "description":"Generate and manage student certification documents",
+        "permissions_allowed":["permission"],
         "url":"/students/document-generation/certification",
         "module":"Student Management"
     },
     {
         "name":"Student Id Print",
-        "keywords":"",
-        "description":"",
-        "permission_allowed":["permission"],
+        "keywords":["id card","print student id","student identification","id generation"],
+        "description":"Generate and print student ID cards",
+        "permissions_allowed":["permission"],
         "url":"/students/document-generation/id-print",
         "module":"Student Management"
     },
     {
         "name":"Student Letters",
-        "keywords":"",
-        "description":"",
-        "permission_allowed":["permission"],
+        "keywords":["letters","student letters","generate letter","official letters","student documents"],
+        "description":"Generate official student letters (e.g., admission, completion, recommendation)",
+        "permissions_allowed":["permission"],
         "url":"/students/document-generation/student-letter",
         "module":"Student Management"
     },
     {
         "name":"Requests",
-        "keywords":"",
-        "description":"",
-        "permission_allowed":["permission"],
+        "keywords":["requests","document requests","student requests","certificate requests","id requests"],
+        "description":"Manage and process student document requests",
+        "permissions_allowed":["permission"],
         "url":"/students/document-generation/document-request",
         "module":"Student Management"
-    },
-
-
-    #CAMPUS MANAGEMENT MODULE
-    {
-        
     }
+
+    // CAMPUS MANAGEMENT MODULE comes next...
 ]
