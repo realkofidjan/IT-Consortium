@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Dashboard",
+        "keywords":["dashboard","overall summary"],
+        "description":"Holds a summary of pricing and admission statistics",
+        "permissions_allowed":["permission"],
+        "url":"/dashboard"
+    },
+    {
+        "name":"Add Student",
+        "keywords":["add Student","create student","register student"],
+        "description":"Create student records in OSIS",
+        "permissions_allowed":["permission"],
+        "url":"/students/add"
+    }
+]
