@@ -1,16 +1,106 @@
 [
+
+    //STUDENT MANAGEMENT MODULE
     {
         "name":"Dashboard",
         "keywords":["dashboard","overall summary"],
         "description":"Holds a summary of pricing and admission statistics",
         "permissions_allowed":["permission"],
-        "url":"/dashboard"
+        "url":"/dashboard",
+        "module":"Dashboard"
     },
     {
         "name":"Add Student",
         "keywords":["add Student","create student","register student"],
         "description":"Create student records in OSIS",
         "permissions_allowed":["permission"],
-        "url":"/students/add"
-    }
+        "url":"/students/add",
+        "module":"Student Management"
+    },
+    {
+        "name":"Bulk Upload",
+        "keywords":"bulk, bulk upload, bulk photos, bulk affiliation, affilation upload, upload students",
+        "description":"Upload students, photos, and affiliations in bulk",
+        "permissions_allowed":["permission"],
+        "url":"/students/student-imports",
+        "module":"Student Management"
+    },
+    {
+        "name":"Find Student",
+        "keywords":"",
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/students/profiles",
+        "module":"Student Management"
+    },
+    {
+        "name":"Change Program",
+        "keywords":"",
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/students/change-program",
+        "module":"Student Management"
+    },
+    {
+        "name":"Change Status",
+        "keywords":"",
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/students/change-status",
+        "module":"Student Management"
+    },
+    {
+        "name":"Bulk Detail Update",
+        "keywords":"",
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/students/bulk-detail-update",
+        "module":"Student Management"
+    },
+    {
+        "name":"Manual Regnumber Re-Generator",
+        "keywords":"",
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/students/regnumber-re-generator",
+        "module":"Student Management"
+    },
+    {
+        "name":"Certification",
+        "keywords":"",
+        "description":"",
+        "permission_allowed":["permission"],
+        "url":"/students/document-generation/certification",
+        "module":"Student Management"
+    },
+    {
+        "name":"Student Id Print",
+        "keywords":"",
+        "description":"",
+        "permission_allowed":["permission"],
+        "url":"/students/document-generation/id-print",
+        "module":"Student Management"
+    },
+    {
+        "name":"Student Letters",
+        "keywords":"",
+        "description":"",
+        "permission_allowed":["permission"],
+        "url":"/students/document-generation/student-letter",
+        "module":"Student Management"
+    },
+    {
+        "name":"Requests",
+        "keywords":"",
+        "description":"",
+        "permission_allowed":["permission"],
+        "url":"/students/document-generation/document-request",
+        "module":"Student Management"
+    },
+
+
+    #CAMPUS MANAGEMENT MODULE
+    {
+        
+    {
 ]
