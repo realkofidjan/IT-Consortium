@@ -265,8 +265,89 @@
         "permissions_allowed":["permission"],
         "url":"/campus-management/entry-modes",
         "module":"Campus Management"
-    }
+    },
 
     // Program Management Module
-    
+    {
+        "name":"Manage Program",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Add Program",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Manage options",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Add Plan",
+        "keywords":[""],
+        "description":"", //Add that you will find it under the dropdown for each program
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Add Option",
+        "keywords":[""],
+        "description":"", //Add that you will find it under the dropdown for each program
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Show Plans",
+        "keywords":[""],
+        "description":"", //Add that you will find it under the dropdown for each program
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Show Options",
+        "keywords":[""],
+        "description":"", //Add that you will find it under the dropdown for each program
+        "permissions_allowed":["permission"],
+        "url":"/program-management/programs",
+        "module":"Program Management"
+    },
+    {
+        "name":"Program Plan",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/program-management/program-plans",
+        "module":"Program Management"
+    },
+    {
+        "name":"Assign Students",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/program-management/program-plans",
+        "module":"Program Management"
+    },
+    {
+        "name":"Add Program Plan",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/program-management/program-plans",
+        "module":"Program Management"
+    },
+
+    // Admission Management Module
 ]
