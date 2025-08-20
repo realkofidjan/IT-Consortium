@@ -329,7 +329,7 @@
         "keywords": ["form programs", "programs"],
         "description": "View and manage programs linked to admission forms. Available in the dropdown for each form.",
         "permissions_allowed": ["permission"],
-        "url": "/admission/setups/admission-forms",
+        "url": "/admission/setups/form-programs",
         "module": "Admission Management"
     },
     {
@@ -518,5 +518,119 @@
         "url": "/registration-setup/course-grouping",
         "module": "Registration Setup"
     },
+
+    // Course Registration Setup
+    {
+        "name": "Register Student",
+        "keywords": ["student enrollment", "new registration", "course sign-up"],
+        "description": "Register a student for courses within the academic session.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/register-student",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Resit Registration",
+        "keywords": ["resit", "retake exam", "supplementary registration"],
+        "description": "Allow students to register for resit examinations.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/resit",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Batch Registration",
+        "keywords": ["bulk enrollment", "multiple registration", "mass registration"],
+        "description": "Register multiple students in bulk for courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/batch",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Manual Registration Clearance",
+        "keywords": ["manual registration", "clearance", "special approval"],
+        "description": "Manually clear and approve student registrations.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/manual-registration",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Groupings",
+        "keywords": ["course groups", "class allocation", "student groups"],
+        "description": "Manage student groupings for courses and classes.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/groupings",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Add Group",
+        "keywords": ["create group", "add student group", "course grouping"],
+        "description": "Create a new group under course registration.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/groupings",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Merge Groups",
+        "keywords": ["combine groups", "merge student groups", "group consolidation"],
+        "description": "Merge two or more student groups into one.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/groupings",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Exam Attendance",
+        "keywords": ["exam attendance", "student presence", "attendance sheet"],
+        "description": "Track and manage student attendance during exams.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/exam-attendance",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Registered List",
+        "keywords": ["registered students", "enrollment list", "student list"],
+        "description": "View the list of students successfully registered for courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/report/list",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Repush SIP Registrations",
+        "keywords": ["SIP sync", "reprocess registration", "system push"],
+        "description": "Re-sync and push student registrations to SIP system.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/report/list",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Student Registration History",
+        "keywords": ["registration history", "student record", "past registrations"],
+        "description": "View detailed registration history of a student.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/report/student-registration-history",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Registration Status",
+        "keywords": ["registration progress", "status check", "enrollment status"],
+        "description": "Check and monitor the current registration status of students.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/report/registration-status",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Registration Statistics",
+        "keywords": ["statistics", "reports", "enrollment analysis"],
+        "description": "Generate statistics on student course registrations.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/report/registration-statistics",
+        "module": "Course Registration"
+    },
+    {
+        "name": "Unregistered List",
+        "keywords": ["unregistered students", "pending registration", "not enrolled"],
+        "description": "View students who have not registered for courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/course-registration/report/unregistered-list",
+        "module": "Course Registration"
+    }
     
 ]
