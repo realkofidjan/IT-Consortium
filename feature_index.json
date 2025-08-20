@@ -95,7 +95,175 @@
         "permissions_allowed":["permission"],
         "url":"/students/document-generation/document-request",
         "module":"Student Management"
-    }
+    },
 
-    // CAMPUS MANAGEMENT MODULE comes next...
+    // CAMPUS MANAGEMENT MODULE
+    {
+        "name":"Manage Academic Years",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/academic-year",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Academic Year",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/academic-year",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Semesters",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/semesters",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Semester",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/semesters",
+        "module":"Campus Management"
+    },
+    {
+        "name":"End Semesters",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/semesters",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Campuses",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/semesters",
+        "module":"Campus Management"
+    },
+     {
+        "name":"Add Campus",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/semesters",
+        "module":"Campus Management"
+    },
+     {
+        "name":"Manage Stream",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/streams",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Stream",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/streams",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Units",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/units",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Unit",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/units",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Courses",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/courses",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Course",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/courses",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Study Centers",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/study-center",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Study Centers",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/study-center",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Halls",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/halls",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Halls",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/halls",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Affiliations",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/program-affiliations",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Affiliation",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/program-affiliations",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Manage Entry Modes",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/entry-modes",
+        "module":"Campus Management"
+    },
+    {
+        "name":"Add Entry Mode",
+        "keywords":[""],
+        "description":"",
+        "permissions_allowed":["permission"],
+        "url":"/campus-management/entry-modes",
+        "module":"Campus Management"
+    },
 ]
