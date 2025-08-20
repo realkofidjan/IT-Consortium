@@ -98,86 +98,377 @@
     },
 
     // Program Management Module
-{
-    "name": "Manage Program",
-    "keywords": ["program", "view", "edit"],
-    "description": "View and manage all existing programs in the system.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Add Program",
-    "keywords": ["program", "create", "new"],
-    "description": "Create and add a new program to the system.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Manage Options",
-    "keywords": ["program options", "settings"],
-    "description": "View and manage options available under each program.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Add Plan",
-    "keywords": ["plan", "program plan", "create"],
-    "description": "Add a new plan under a program. Accessible via the dropdown for each program.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Add Option",
-    "keywords": ["option", "program option", "create"],
-    "description": "Add a new option under a program. Accessible via the dropdown for each program.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Show Plans",
-    "keywords": ["plans", "view plans"],
-    "description": "View all plans available under each program. Accessible via the dropdown for each program.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Show Options",
-    "keywords": ["options", "view options"],
-    "description": "View all options available under each program. Accessible via the dropdown for each program.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/programs",
-    "module": "Program Management"
-},
-{
-    "name": "Program Plan",
-    "keywords": ["program plan", "details"],
-    "description": "View and manage the details of specific program plans.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/program-plans",
-    "module": "Program Management"
-},
-{
-    "name": "Assign Students",
-    "keywords": ["assign", "students", "enroll"],
-    "description": "Assign or enroll students into specific program plans.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/program-plans",
-    "module": "Program Management"
-},
-{
-    "name": "Add Program Plan",
-    "keywords": ["program plan", "create"],
-    "description": "Create and add a new program plan for a program.",
-    "permissions_allowed": ["permission"],
-    "url": "/program-management/program-plans",
-    "module": "Program Management"
-},
+    {
+        "name": "Manage Program",
+        "keywords": ["program", "view", "edit"],
+        "description": "View and manage all existing programs in the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Add Program",
+        "keywords": ["program", "create", "new"],
+        "description": "Create and add a new program to the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Manage Options",
+        "keywords": ["program options", "settings"],
+        "description": "View and manage options available under each program.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Add Plan",
+        "keywords": ["plan", "program plan", "create"],
+        "description": "Add a new plan under a program. Accessible via the dropdown for each program.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Add Option",
+        "keywords": ["option", "program option", "create"],
+        "description": "Add a new option under a program. Accessible via the dropdown for each program.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Show Plans",
+        "keywords": ["plans", "view plans"],
+        "description": "View all plans available under each program. Accessible via the dropdown for each program.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Show Options",
+        "keywords": ["options", "view options"],
+        "description": "View all options available under each program. Accessible via the dropdown for each program.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/programs",
+        "module": "Program Management"
+    },
+    {
+        "name": "Program Plan",
+        "keywords": ["program plan", "details"],
+        "description": "View and manage the details of specific program plans.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/program-plans",
+        "module": "Program Management"
+    },
+    {
+        "name": "Assign Students",
+        "keywords": ["assign", "students", "enroll"],
+        "description": "Assign or enroll students into specific program plans.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/program-plans",
+        "module": "Program Management"
+    },
+    {
+        "name": "Add Program Plan",
+        "keywords": ["program plan", "create"],
+        "description": "Create and add a new program plan for a program.",
+        "permissions_allowed": ["permission"],
+        "url": "/program-management/program-plans",
+        "module": "Program Management"
+    },
 
     // Admission Management Module
+    {
+        "name": "Applicant List",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/applicants-list",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Send Bulk Letters",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/applicants-list",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Compute Aggregate",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/applicants-list",
+        "module": "Admission Management"
+    },
+    {
+        "name": "View Form Quota Report",
+        "keywords": [""],
+        "description": "", // Add that the button is in the top menu dropdown
+        "permissions_allowed": ["permission"],
+        "url": "/admission/applicants-list",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Admission Decision",
+        "keywords": [""],
+        "description": "", // Add that it is in the actions dropdown for each applicant
+        "permissions_allowed": ["permission"],
+        "url": "/admission/applicants-list",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Find Applicant",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/find-applicant",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Admission Report",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/admission-reports",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Applicant",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/add-applicant",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Bulk Upload of Applicant Records",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/bulk-upload",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Bulk Update Applicant",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/bulk-update",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Exam Score",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/entrance-exam/score",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Generate Regnumber for All",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/entrance-exam/score",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Admission Batches",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/setup-batches",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Batche",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/setup-batches",
+        "module": "Admission Management"
+    },
+    {
+        "name": "View Relationship",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/setup-batches",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Admission Forms",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/admission-forms",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Admission Form",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/admission-forms",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Show Attachment Types",
+        "keywords": [""],
+        "description": "", //Add that it is in the dropdown for each form
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/admission-forms",
+        "module": "Admission Management"
+    },
+    {
+        "name": "View Form Programs",
+        "keywords": [""],
+        "description": "", //Add that it is in the dropdown for each form
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/admission-forms",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Question Category",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-question-categories",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Form Question Category",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-question-categories",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Form Question",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-questions",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Form Question",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-questions",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Exam Types",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/exam-types-setup",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Exam Type",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/exam-types-setup",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Subjects",
+        "keywords": [""],
+        "description": "", //Add that it is one of the option buttons available to each exam type
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/exam-types-setup",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Grades",
+        "keywords": [""],
+        "description": "", //Add that it is one of the option buttons available to each exam type
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/exam-types-setup",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Program Qualification",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-programs-qualification",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Batch Generate Setup",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-programs-qualification",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Admission Program Qualification",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/form-programs-qualification",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Offer Letter Template",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/offer_letter_templates",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Letter Template",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/offer_letter_templates",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Images",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/offer_letter_templates",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Referee Recommendation",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/referee_letter_templates",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Setup Recommendation Form",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/referee_letter_templates",
+        "module": "Admission Management"
+    },
+    {
+        "name": "Add Referee Letter Template",
+        "keywords": [""],
+        "description": "",
+        "permissions_allowed": ["permission"],
+        "url": "/admission/setups/referee_letter_templates",
+        "module": "Admission Management"
+    },
+
+    // Registration Setup Module
+    
 ]
