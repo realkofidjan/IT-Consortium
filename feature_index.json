@@ -471,7 +471,52 @@
 
     // Registration Setup Module
     {
-        
-    }
+        "name": "Schedules",
+        "keywords": ["schedules", "registration schedule", "timetable", "manage schedules"],
+        "description": "View and manage all registration schedules for programs and courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/registration-setup/schedules",
+        "module": "Registration Setup"
+    },
+    {
+        "name": "Generate Schedule",
+        "keywords": ["generate", "create schedule", "auto-schedule", "registration setup"],
+        "description": "Automatically generate new registration schedules for upcoming sessions.",
+        "permissions_allowed": ["permission"],
+        "url": "/registration-setup/schedules",
+        "module": "Registration Setup"
+    },
+    {
+        "name": "View Programs",
+        "keywords": ["programs", "view programs", "program list", "available programs"],
+        "description": "Access a list of programs available for registration scheduling.",
+        "permissions_allowed": ["permission"],
+        "url": "/registration-setup/schedules",
+        "module": "Registration Setup"
+    },
+    {
+        "name": "Course Grouping",
+        "keywords": ["course grouping", "group courses", "registration groups", "class grouping"],
+        "description": "Organize courses into groups for easier registration and schedule management.",
+        "permissions_allowed": ["permission"],
+        "url": "/registration-setup/course-grouping",
+        "module": "Registration Setup"
+    },
+    {
+        "name": "Add Setting",
+        "keywords": ["settings", "registration settings", "add setting", "configuration"],
+        "description": "Configure registration-related settings under course grouping.",
+        "permissions_allowed": ["permission"],
+        "url": "/registration-setup/course-grouping",
+        "module": "Registration Setup"
+    },
+    {
+        "name": "View Groups",
+        "keywords": ["groups", "view groups", "course groups", "registration groups"],
+        "description": "View existing course groups set up for registration.",
+        "permissions_allowed": ["permission"],
+        "url": "/registration-setup/course-grouping",
+        "module": "Registration Setup"
+    },
     
 ]
