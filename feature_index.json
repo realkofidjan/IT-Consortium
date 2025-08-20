@@ -182,293 +182,296 @@
     // Admission Management Module
     {
         "name": "Applicant List",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["applicants", "list", "view applicants"],
+        "description": "View and manage the list of all applicants.",
         "permissions_allowed": ["permission"],
         "url": "/admission/applicants-list",
         "module": "Admission Management"
     },
     {
         "name": "Send Bulk Letters",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["bulk letters", "communication"],
+        "description": "Send letters or notifications in bulk to multiple applicants.",
         "permissions_allowed": ["permission"],
         "url": "/admission/applicants-list",
         "module": "Admission Management"
     },
     {
         "name": "Compute Aggregate",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["aggregate", "compute", "scores"],
+        "description": "Automatically compute aggregate scores for applicants.",
         "permissions_allowed": ["permission"],
         "url": "/admission/applicants-list",
         "module": "Admission Management"
     },
     {
         "name": "View Form Quota Report",
-        "keywords": [""],
-        "description": "", // Add that the button is in the top menu dropdown
+        "keywords": ["form quota", "report"],
+        "description": "View quota allocation reports. Available in the top menu dropdown.",
         "permissions_allowed": ["permission"],
         "url": "/admission/applicants-list",
         "module": "Admission Management"
     },
     {
         "name": "Admission Decision",
-        "keywords": [""],
-        "description": "", // Add that it is in the actions dropdown for each applicant
+        "keywords": ["decision", "admission status"],
+        "description": "Approve or reject admission applications. Available in the actions dropdown for each applicant.",
         "permissions_allowed": ["permission"],
         "url": "/admission/applicants-list",
         "module": "Admission Management"
     },
     {
         "name": "Find Applicant",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["search", "find applicant"],
+        "description": "Search and locate a specific applicant by details.",
         "permissions_allowed": ["permission"],
         "url": "/admission/find-applicant",
         "module": "Admission Management"
     },
     {
         "name": "Admission Report",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["reports", "admission"],
+        "description": "Generate and view admission-related reports.",
         "permissions_allowed": ["permission"],
         "url": "/admission/admission-reports",
         "module": "Admission Management"
     },
     {
         "name": "Add Applicant",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["add applicant", "create"],
+        "description": "Manually add a new applicant record to the system.",
         "permissions_allowed": ["permission"],
         "url": "/admission/add-applicant",
         "module": "Admission Management"
     },
     {
         "name": "Bulk Upload of Applicant Records",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["bulk upload", "import applicants"],
+        "description": "Upload multiple applicant records using bulk upload.",
         "permissions_allowed": ["permission"],
         "url": "/admission/bulk-upload",
         "module": "Admission Management"
     },
     {
         "name": "Bulk Update Applicant",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["bulk update", "update applicants"],
+        "description": "Update multiple applicant records in bulk.",
         "permissions_allowed": ["permission"],
         "url": "/admission/bulk-update",
         "module": "Admission Management"
     },
     {
         "name": "Exam Score",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["exam", "score"],
+        "description": "Enter or manage applicants’ exam scores.",
         "permissions_allowed": ["permission"],
         "url": "/admission/entrance-exam/score",
         "module": "Admission Management"
     },
     {
         "name": "Generate Regnumber for All",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["registration number", "generate"],
+        "description": "Automatically generate registration numbers for all applicants.",
         "permissions_allowed": ["permission"],
         "url": "/admission/entrance-exam/score",
         "module": "Admission Management"
     },
     {
         "name": "Admission Batches",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["batches", "view batches"],
+        "description": "View and manage admission batches.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/setup-batches",
         "module": "Admission Management"
     },
     {
-        "name": "Add Batche",
-        "keywords": [""],
-        "description": "",
+        "name": "Add Batch",
+        "keywords": ["batch", "create batch"],
+        "description": "Create and add a new admission batch.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/setup-batches",
         "module": "Admission Management"
     },
     {
         "name": "View Relationship",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["relationship", "view"],
+        "description": "View applicant relationships within admission batches.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/setup-batches",
         "module": "Admission Management"
     },
     {
         "name": "Admission Forms",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["forms", "view forms"],
+        "description": "View and manage admission forms.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/admission-forms",
         "module": "Admission Management"
     },
     {
         "name": "Add Admission Form",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["form", "create form"],
+        "description": "Create and add a new admission form.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/admission-forms",
         "module": "Admission Management"
     },
     {
         "name": "Show Attachment Types",
-        "keywords": [""],
-        "description": "", //Add that it is in the dropdown for each form
+        "keywords": ["attachments", "form attachments"],
+        "description": "View and manage attachment types for each form. Available in the dropdown for each form.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/admission-forms",
         "module": "Admission Management"
     },
     {
         "name": "View Form Programs",
-        "keywords": [""],
-        "description": "", //Add that it is in the dropdown for each form
+        "keywords": ["form programs", "programs"],
+        "description": "View and manage programs linked to admission forms. Available in the dropdown for each form.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/admission-forms",
         "module": "Admission Management"
     },
     {
         "name": "Question Category",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["questions", "category"],
+        "description": "Manage categories for admission form questions.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-question-categories",
         "module": "Admission Management"
     },
     {
         "name": "Add Form Question Category",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["question category", "create"],
+        "description": "Add a new category for admission form questions.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-question-categories",
         "module": "Admission Management"
     },
     {
         "name": "Form Question",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["form questions", "manage"],
+        "description": "View and manage questions for admission forms.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-questions",
         "module": "Admission Management"
     },
     {
         "name": "Add Form Question",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["add question", "form question"],
+        "description": "Add a new question to admission forms.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-questions",
         "module": "Admission Management"
     },
     {
         "name": "Exam Types",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["exam types", "manage exams"],
+        "description": "View and manage types of entrance exams.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/exam-types-setup",
         "module": "Admission Management"
     },
     {
         "name": "Add Exam Type",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["exam type", "create"],
+        "description": "Add a new type of entrance exam.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/exam-types-setup",
         "module": "Admission Management"
     },
     {
         "name": "Subjects",
-        "keywords": [""],
-        "description": "", //Add that it is one of the option buttons available to each exam type
+        "keywords": ["subjects", "exam subjects"],
+        "description": "Manage subjects for each exam type. Available via option buttons for each exam type.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/exam-types-setup",
         "module": "Admission Management"
     },
     {
         "name": "Grades",
-        "keywords": [""],
-        "description": "", //Add that it is one of the option buttons available to each exam type
+        "keywords": ["grades", "exam grades"],
+        "description": "Manage grading options for each exam type. Available via option buttons for each exam type.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/exam-types-setup",
         "module": "Admission Management"
     },
     {
         "name": "Program Qualification",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["program qualification", "eligibility"],
+        "description": "Set up qualifications required for program admissions.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-programs-qualification",
         "module": "Admission Management"
     },
     {
         "name": "Batch Generate Setup",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["batch setup", "generate"],
+        "description": "Configure batch generation settings for admission processing.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-programs-qualification",
         "module": "Admission Management"
     },
     {
         "name": "Admission Program Qualification",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["program qualification", "admission eligibility"],
+        "description": "Manage program qualification rules for admissions.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/form-programs-qualification",
         "module": "Admission Management"
     },
     {
         "name": "Offer Letter Template",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["offer letter", "template"],
+        "description": "View and manage templates for admission offer letters.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/offer_letter_templates",
         "module": "Admission Management"
     },
     {
         "name": "Add Letter Template",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["letter template", "add"],
+        "description": "Create and add a new admission letter template.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/offer_letter_templates",
         "module": "Admission Management"
     },
     {
         "name": "Add Images",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["images", "letter template"],
+        "description": "Upload images for use in admission letter templates.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/offer_letter_templates",
         "module": "Admission Management"
     },
     {
         "name": "Referee Recommendation",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["referee", "recommendation"],
+        "description": "Manage referee recommendation settings for applicants.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/referee_letter_templates",
         "module": "Admission Management"
     },
     {
         "name": "Setup Recommendation Form",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["recommendation form", "setup"],
+        "description": "Set up recommendation forms required from referees.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/referee_letter_templates",
         "module": "Admission Management"
     },
     {
         "name": "Add Referee Letter Template",
-        "keywords": [""],
-        "description": "",
+        "keywords": ["referee letter", "template"],
+        "description": "Create and add new templates for referee recommendation letters.",
         "permissions_allowed": ["permission"],
         "url": "/admission/setups/referee_letter_templates",
         "module": "Admission Management"
     },
 
     // Registration Setup Module
+    {
+        
+    }
     
 ]
