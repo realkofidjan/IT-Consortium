@@ -97,257 +97,87 @@
         "module":"Student Management"
     },
 
-    // CAMPUS MANAGEMENT MODULE
-    {
-        "name":"Manage Academic Years",
-        "keywords":["academic year","manage years","school year","year settings"],
-        "description":"View and manage academic years for the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/academic-year",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Academic Year",
-        "keywords":["add academic year","create academic year","new year","register academic year"],
-        "description":"Create a new academic year record",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/academic-year",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Semesters",
-        "keywords":["semester","manage semester","academic semester","semester setup"],
-        "description":"View and manage semesters for each academic year",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/semesters",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Semester",
-        "keywords":["add semester","create semester","new semester","register semester"],
-        "description":"Create a new semester under an academic year",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/semesters",
-        "module":"Campus Management"
-    },
-    {
-        "name":"End Semesters",
-        "keywords":["end semester","close semester","terminate semester","finalize semester"],
-        "description":"End or close an ongoing semester",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/semesters",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Campuses",
-        "keywords":["campus","manage campuses","school campuses","institution campuses"],
-        "description":"View and manage different campuses under the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/campuses",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Campus",
-        "keywords":["add campus","create campus","new campus","register campus"],
-        "description":"Add a new campus to the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/campuses",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Stream",
-        "keywords":["stream","manage stream","student streams","program streams"],
-        "description":"View and manage academic streams offered by the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/streams",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Stream",
-        "keywords":["add stream","create stream","new stream","register stream"],
-        "description":"Add a new academic stream",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/streams",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Units",
-        "keywords":["unit","manage unit","academic unit","course units"],
-        "description":"View and manage academic units in the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/units",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Unit",
-        "keywords":["add unit","create unit","new unit","register unit"],
-        "description":"Add a new academic unit",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/units",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Courses",
-        "keywords":["course","manage course","academic course","program course"],
-        "description":"View and manage courses available in the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/courses",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Course",
-        "keywords":["add course","create course","new course","register course"],
-        "description":"Add a new course to the institution’s catalog",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/courses",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Study Centers",
-        "keywords":["study center","manage study center","learning center","external center"],
-        "description":"View and manage study centers under the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/study-center",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Study Centers",
-        "keywords":["add study center","create study center","new study center","register study center"],
-        "description":"Add a new study center to the institution",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/study-center",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Halls",
-        "keywords":["halls","manage hall","school halls","student halls"],
-        "description":"View and manage student halls and accommodations",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/halls",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Halls",
-        "keywords":["add hall","create hall","new hall","register hall"],
-        "description":"Add a new student hall",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/halls",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Affiliations",
-        "keywords":["affiliation","manage affiliation","program affiliation","institution affiliation"],
-        "description":"View and manage program or institutional affiliations",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/program-affiliations",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Affiliation",
-        "keywords":["add affiliation","create affiliation","new affiliation","register affiliation"],
-        "description":"Add a new program or institutional affiliation",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/program-affiliations",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Manage Entry Modes",
-        "keywords":["entry mode","manage entry mode","admission mode","entry type"],
-        "description":"View and manage student entry modes (e.g., regular, mature, transfer)",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/entry-modes",
-        "module":"Campus Management"
-    },
-    {
-        "name":"Add Entry Mode",
-        "keywords":["add entry mode","create entry mode","new entry mode","register entry mode"],
-        "description":"Add a new student entry mode",
-        "permissions_allowed":["permission"],
-        "url":"/campus-management/entry-modes",
-        "module":"Campus Management"
-    },
-
     // Program Management Module
-    {
-        "name":"Manage Program",
-        "keywords":[""],
-        "description":"",
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Add Program",
-        "keywords":[""],
-        "description":"",
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Manage options",
-        "keywords":[""],
-        "description":"",
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Add Plan",
-        "keywords":[""],
-        "description":"", //Add that you will find it under the dropdown for each program
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Add Option",
-        "keywords":[""],
-        "description":"", //Add that you will find it under the dropdown for each program
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Show Plans",
-        "keywords":[""],
-        "description":"", //Add that you will find it under the dropdown for each program
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Show Options",
-        "keywords":[""],
-        "description":"", //Add that you will find it under the dropdown for each program
-        "permissions_allowed":["permission"],
-        "url":"/program-management/programs",
-        "module":"Program Management"
-    },
-    {
-        "name":"Program Plan",
-        "keywords":[""],
-        "description":"",
-        "permissions_allowed":["permission"],
-        "url":"/program-management/program-plans",
-        "module":"Program Management"
-    },
-    {
-        "name":"Assign Students",
-        "keywords":[""],
-        "description":"",
-        "permissions_allowed":["permission"],
-        "url":"/program-management/program-plans",
-        "module":"Program Management"
-    },
-    {
-        "name":"Add Program Plan",
-        "keywords":[""],
-        "description":"",
-        "permissions_allowed":["permission"],
-        "url":"/program-management/program-plans",
-        "module":"Program Management"
-    },
+{
+    "name": "Manage Program",
+    "keywords": ["program", "view", "edit"],
+    "description": "View and manage all existing programs in the system.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Add Program",
+    "keywords": ["program", "create", "new"],
+    "description": "Create and add a new program to the system.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Manage Options",
+    "keywords": ["program options", "settings"],
+    "description": "View and manage options available under each program.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Add Plan",
+    "keywords": ["plan", "program plan", "create"],
+    "description": "Add a new plan under a program. Accessible via the dropdown for each program.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Add Option",
+    "keywords": ["option", "program option", "create"],
+    "description": "Add a new option under a program. Accessible via the dropdown for each program.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Show Plans",
+    "keywords": ["plans", "view plans"],
+    "description": "View all plans available under each program. Accessible via the dropdown for each program.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Show Options",
+    "keywords": ["options", "view options"],
+    "description": "View all options available under each program. Accessible via the dropdown for each program.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/programs",
+    "module": "Program Management"
+},
+{
+    "name": "Program Plan",
+    "keywords": ["program plan", "details"],
+    "description": "View and manage the details of specific program plans.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/program-plans",
+    "module": "Program Management"
+},
+{
+    "name": "Assign Students",
+    "keywords": ["assign", "students", "enroll"],
+    "description": "Assign or enroll students into specific program plans.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/program-plans",
+    "module": "Program Management"
+},
+{
+    "name": "Add Program Plan",
+    "keywords": ["program plan", "create"],
+    "description": "Create and add a new program plan for a program.",
+    "permissions_allowed": ["permission"],
+    "url": "/program-management/program-plans",
+    "module": "Program Management"
+},
 
     // Admission Management Module
 ]
