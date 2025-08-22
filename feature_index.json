@@ -1282,4 +1282,72 @@
         "url": "/graduation/graduation-payment/report",
         "module": "Graduation Management"
     },
+
+    // Messaging Module
+    {
+        "name": "Send Single Message",
+        "keywords": ["message", "sms", "notification", "student", "single"],
+        "description": "Send an individual message or notification to a student.",
+        "permissions_allowed": ["permission"],
+        "url": "/messaging/send-students",
+        "module": "Messaging"
+    },
+    {
+        "name": "Send Bulk Message",
+        "keywords": ["message", "bulk", "sms", "group", "students", "notifications"],
+        "description": "Send messages in bulk to multiple students or groups.",
+        "permissions_allowed": ["permission"],
+        "url": "/messaging/send-bulk-sms",
+        "module": "Messaging"
+    },
+    {
+        "name": "Message History",
+        "keywords": ["messages", "history", "records", "logs", "sent", "received"],
+        "description": "View the history of sent messages with status tracking.",
+        "permissions_allowed": ["permission"],
+        "url": "/messaging/message-history",
+        "module": "Messaging"
+    },
+    
+    // Pricing Module
+    {
+        "name": "Invoice",
+        "keywords": ["invoice", "billing", "charges", "fees", "pricing"],
+        "description": "Generate and manage student invoices for tuition and fees.",
+        "permissions_allowed": ["permission"],
+        "url": "/pricing-module/invoice",
+        "module": "Pricing"
+    },
+    {
+        "name": "Create",
+        "keywords": ["invoice", "create", "new", "billing", "fees"],
+        "description": "Create a new invoice for student charges or services.",
+        "permissions_allowed": ["permission"],
+        "url": "/pricing-module/invoice",
+        "module": "Pricing"
+    },
+    {
+        "name": "Payments",
+        "keywords": ["payments", "transactions", "records", "tuition", "fees"],
+        "description": "Track and manage payments made by students.",
+        "permissions_allowed": ["permission"],
+        "url": "/pricing-module/pricing-reports/payments",
+        "module": "Pricing"
+    },
+    {
+        "name": "Deductions",
+        "keywords": ["deductions", "discounts", "waivers", "adjustments"],
+        "description": "Manage deductions, discounts, or waivers applied to fees.",
+        "permissions_allowed": ["permission"],
+        "url": "/pricing-module/pricing-reports/deductions",
+        "module": "Pricing"
+    },
+    {
+        "name": "Account Statement",
+        "keywords": ["account", "statement", "balance", "history", "payments"],
+        "description": "Generate detailed account statements showing balances and transactions.",
+        "permissions_allowed": ["permission"],
+        "url": "/pricing-module/pricing-reports/account-statement",
+        "module": "Pricing"
+    }
 ]
