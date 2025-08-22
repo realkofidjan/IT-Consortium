@@ -631,6 +631,298 @@
         "permissions_allowed": ["permission"],
         "url": "/course-registration/report/unregistered-list",
         "module": "Course Registration"
-    }
+    },
+
+    // Assessment Management Module
+    {
+        "name": "Grading Scheme",
+        "keywords": ["grading", "scoring method", "assessment rules"],
+        "description": "Manage grading schemes used for evaluating student performance.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grading-schemes",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Add Scheme",
+        "keywords": ["create grading scheme", "add scheme", "new grading rules"],
+        "description": "Create a new grading scheme for assessments.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grading-schemes",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "GPAs",
+        "keywords": ["gpa setup", "grading scheme gpa", "student gpa"],
+        "description": "Button available for each grading scheme to configure GPA scale.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grading-schemes",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Grades",
+        "keywords": ["grades setup", "letter grades", "grading levels"],
+        "description": "Button available for each grading scheme to manage grade levels.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grading-schemes",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Map Scheme",
+        "keywords": ["map grading scheme", "scheme mapping", "course grading link"],
+        "description": "Button available for each grading scheme to map it to courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grading-schemes",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "View Comp. Scheme",
+        "keywords": ["computation scheme", "grading view", "scheme calculation"],
+        "description": "View computation rules associated with grading schemes.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grading-schemes",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Historical Results Uploads",
+        "keywords": ["upload results", "historical data", "results import"],
+        "description": "Upload past academic results into the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/historical-results-upload",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Add/Create/Delete Session",
+        "keywords": ["session setup", "academic session", "manage session"],
+        "description": "Create, edit, or delete academic sessions for historical results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/historical-results-upload",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Historical Semester(s) Involved",
+        "keywords": ["historical semester", "semester mapping", "past results"],
+        "description": "Button available for each session to manage related semesters.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/historical-results-upload",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "User(s) Involved In Activity",
+        "keywords": ["activity users", "session users", "audit trail"],
+        "description": "Button available for each session to track users involved.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/historical-results-upload",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Activities",
+        "keywords": ["session activities", "audit log", "session tracking"],
+        "description": "Button available for each session to view activities performed.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/historical-results-upload",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Assessments",
+        "keywords": ["assessment sheets", "course assessment", "grading sheets"],
+        "description": "Manage assessment sheets for courses and exams.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/assessment-sheets",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Assign",
+        "keywords": ["assign assessment", "lecturer assignment", "sheet allocation"],
+        "description": "Button available for each sheet to assign assessors.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/assessment-sheets",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Result",
+        "keywords": ["assessment results", "sheet results", "grading results"],
+        "description": "Button available for each sheet to view recorded results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/assessment-sheets",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Analysis",
+        "keywords": ["assessment analysis", "results analysis", "sheet analysis"],
+        "description": "Button available for each sheet to analyze results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/assessment-sheets",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Score Processing",
+        "keywords": ["score processing", "marks computation", "grading process"],
+        "description": "Process and compute assessment scores for courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/score-processing",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Unpublished",
+        "keywords": ["unpublished scores", "pending results", "draft results"],
+        "description": "Tab filter to group assessment sheets that are unpublished.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/score-processing",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Published",
+        "keywords": ["published scores", "final results", "released assessments"],
+        "description": "Tab filter to group assessment sheets that are published.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/score-processing",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Manage",
+        "keywords": ["manage sheet", "edit assessment", "sheet settings"],
+        "description": "Button available for each sheet to manage settings and data.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/score-processing",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Analysis",
+        "keywords": ["results analysis", "score breakdown", "assessment insights"],
+        "description": "Button available for each sheet to analyze processed results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/score-processing",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Results",
+        "keywords": ["course results", "processed results", "final scores"],
+        "description": "Button available for each sheet to view results after processing.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/score-processing",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Approvals & Publication",
+        "keywords": ["approvals", "results publication", "release results"],
+        "description": "Manage approvals and publish assessment results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/approvals-publication",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Bulk Submit Sheets",
+        "keywords": ["bulk submit", "submit assessments", "mass sheet upload"],
+        "description": "Submit multiple assessment sheets for approval in bulk.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/approvals-publication",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Preview",
+        "keywords": ["preview results", "review sheet", "check assessments"],
+        "description": "Button available for each course to preview results before approval.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/approvals-publication",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Grade Change Request",
+        "keywords": ["grade change", "result correction", "request update"],
+        "description": "Submit and manage requests for grade changes.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/grade-change-requests",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Online Transcript",
+        "keywords": ["online transcript", "student transcript", "academic record"],
+        "description": "Generate and access student transcripts online.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/transcripts",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Official Transcript",
+        "keywords": ["official transcript", "printed transcript", "academic certificate"],
+        "description": "Generate and issue official academic transcripts.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/official-transcripts",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Bulk Transcript Printer",
+        "keywords": ["bulk transcript", "mass transcript printing", "batch printing"],
+        "description": "Print multiple student transcripts in bulk.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/bulk-transcript-print",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Evaluation Setup",
+        "keywords": ["evaluation setup", "course evaluation", "feedback form"],
+        "description": "Set up evaluation forms for lecturers or courses.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-setup",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Add Form",
+        "keywords": ["add evaluation form", "new form", "create feedback form"],
+        "description": "Create a new evaluation form for assessments.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-setup",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Manage",
+        "keywords": ["manage form", "edit evaluation", "update feedback form"],
+        "description": "Button available for each evaluation form to manage settings.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-setup",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "View Form",
+        "keywords": ["view form", "preview evaluation", "feedback form"],
+        "description": "Button available for each evaluation form to view details.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-setup",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Evaluation Periods",
+        "keywords": ["evaluation period", "feedback window", "evaluation dates"],
+        "description": "Set and manage time periods for evaluations.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-period",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Add Evaluation Period",
+        "keywords": ["add period", "new evaluation window", "create evaluation period"],
+        "description": "Add a new evaluation period to the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-period",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Lecturer Report",
+        "keywords": ["lecturer evaluation", "lecturer feedback", "staff performance"],
+        "description": "Generate reports based on lecturer evaluation results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-report",
+        "module": "Assessment Management"
+    },
+    {
+        "name": "Student Report",
+        "keywords": ["student evaluation", "student feedback", "student performance"],
+        "description": "Generate reports based on student evaluation results.",
+        "permissions_allowed": ["permission"],
+        "url": "/assessments/setups/evaluation-student-report",
+        "module": "Assessment Management"
+    },
+
+    // Scheduling Module
     
 ]
