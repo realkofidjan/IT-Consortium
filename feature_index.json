@@ -924,5 +924,362 @@
     },
 
     // Scheduling Module
+    {
+        "name": "Manage Venues",
+        "keywords": ["venue management", "classroom", "rooms", "halls", "allocation"],
+        "description": "Manage all venues including classrooms, lecture halls, and labs for scheduling.",
+        "permissions_allowed": ["permission"],
+        "url": "/scheduling/venues",
+        "module": "Scheduling"
+    },
+    {
+        "name": "Add New Venue",
+        "keywords": ["add venue", "create venue", "hall setup", "new room"],
+        "description": "Add a new venue for lectures, exams, or events.",
+        "permissions_allowed": ["permission"],
+        "url": "/scheduling/venues",
+        "module": "Scheduling"
+    },
+    {
+        "name": "Add Timetable",
+        "keywords": ["timetable", "schedule", "class schedule", "venue timetable"],
+        "description": "Add a timetable for a specific venue.",
+        "permissions_allowed": ["permission"],
+        "url": "/scheduling/venues/timetables",
+        "module": "Scheduling"
+    },
+    {
+        "name": "Lecturer Attendance Reports",
+        "keywords": ["attendance", "lecturer report", "timetable attendance", "teaching report"],
+        "description": "View and generate attendance reports for lecturers based on timetables.",
+        "permissions_allowed": ["permission"],
+        "url": "/scheduling/timetable-attendance-reports",
+        "module": "Scheduling"
+    },
     
+    // Finance Module
+    {
+        "name": "Student Transactions",
+        "keywords": ["student payments", "fees", "transactions", "finance"],
+        "description": "View and manage student financial transactions.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/student-transactions",
+        "module": "Finance"
+    },
+    {
+        "name": "Account Statements",
+        "keywords": ["account balance", "statement", "fees report", "student finance"],
+        "description": "Generate and view account statements for students.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/account-statements",
+        "module": "Finance"
+    },
+    {
+        "name": "Transaction Request Approval",
+        "keywords": ["approve transaction", "finance requests", "payments approval"],
+        "description": "Approve or reject student transaction requests.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/transaction-request-approvals",
+        "module": "Finance"
+    },
+    {
+        "name": "Approve",
+        "keywords": ["approve", "transaction approval", "finance requests"],
+        "description": "Button available on each transaction request for approval.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/transaction-request-approvals",
+        "module": "Finance"
+    },
+    {
+        "name": "Unprocessed Allotments",
+        "keywords": ["pending allotments", "finance allotments", "unprocessed"],
+        "description": "View and manage unprocessed allotments in the finance system.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/re-allotment",
+        "module": "Finance"
+    },
+    {
+        "name": "Unprocessed Transactions",
+        "keywords": ["pending transactions", "unprocessed finance", "student payments"],
+        "description": "List of all unprocessed financial transactions.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/unprocessed-transactions",
+        "module": "Finance"
+    },
+    {
+        "name": "Re-Que Transactions",
+        "keywords": ["requeue", "retry transactions", "failed payments"],
+        "description": "Re-queue failed or pending financial transactions for processing.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/unprocessed-transactions",
+        "module": "Finance"
+    },
+    {
+        "name": "Financial Aid Setup",
+        "keywords": ["financial aid", "scholarship setup", "student funding"],
+        "description": "Setup financial aid structures including scholarships and grants.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/financial-aid",
+        "module": "Finance"
+    },
+    {
+        "name": "Add Student Scholarship",
+        "keywords": ["add scholarship", "student aid", "financial support"],
+        "description": "Assign a new scholarship to a student.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/financial-aid",
+        "module": "Finance"
+    },
+    {
+        "name": "Replicate Scholarship",
+        "keywords": ["duplicate scholarship", "copy aid", "scholarship setup"],
+        "description": "Replicate an existing scholarship setup for other students.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/financial-aid",
+        "module": "Finance"
+    },
+    {
+        "name": "Re-Print Receipt",
+        "keywords": ["receipt", "print finance", "student payment receipt"],
+        "description": "Reprint payment receipts for transactions.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/receipts",
+        "module": "Finance"
+    },
+    {
+        "name": "Daily Summaries",
+        "keywords": ["finance reports", "daily collections", "summary report"],
+        "description": "Generate daily financial transaction summaries.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/daily-summaries",
+        "module": "Finance"
+    },
+    {
+        "name": "Creditors/Debtors",
+        "keywords": ["finance report", "creditors", "debtors", "accounts"],
+        "description": "View reports of creditors and debtors within the finance system.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/creditors-debtors",
+        "module": "Finance"
+    },
+    {
+        "name": "Bank Collection",
+        "keywords": ["bank deposits", "collections", "finance reports"],
+        "description": "View collections and payments processed through banks.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/bank-collections",
+        "module": "Finance"
+    },
+    {
+        "name": "Transactions",
+        "keywords": ["finance transactions", "student payments", "records"],
+        "description": "Comprehensive report of all transactions.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/transactions",
+        "module": "Finance"
+    },
+    {
+        "name": "Payments",
+        "keywords": ["student payments", "fees", "finance report"],
+        "description": "Detailed report of all student payments.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/payments",
+        "module": "Finance"
+    },
+    {
+        "name": "Scholarships",
+        "keywords": ["scholarship report", "student aid", "finance"],
+        "description": "View all awarded scholarships and related reports.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/scholarships",
+        "module": "Finance"
+    },
+    {
+        "name": "Foreigners Paid in Cedis",
+        "keywords": ["foreign student payments", "cedis", "international finance"],
+        "description": "Report of international students who paid in local currency (cedis).",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/foreigners-paid-in-cedis",
+        "module": "Finance"
+    },
+    {
+        "name": "Allotments",
+        "keywords": ["finance allotments", "student allotment", "fund distribution"],
+        "description": "Report of all processed financial allotments.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/allotments",
+        "module": "Finance"
+    },
+    {
+        "name": "E-voucher",
+        "keywords": ["voucher", "e-voucher", "student payments"],
+        "description": "View and manage finance e-vouchers.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/reports/e_voucher",
+        "module": "Finance"
+    },
+    {
+        "name": "Currency & FX",
+        "keywords": ["foreign exchange", "currency setup", "finance"],
+        "description": "Setup and manage currencies and foreign exchange rates.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/currency-forex",
+        "module": "Finance"
+    },
+    {
+        "name": "Bills",
+        "keywords": ["bills", "finance bills", "student charges"],
+        "description": "Manage student bills and charges.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/bills",
+        "module": "Finance"
+    },
+    {
+        "name": "Add Bills",
+        "keywords": ["add bill", "new charge", "student fees"],
+        "description": "Add a new bill or charge to the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/bills",
+        "module": "Finance"
+    },
+    {
+        "name": "Duplicate Bills",
+        "keywords": ["copy bill", "replicate bill", "student charges"],
+        "description": "Duplicate existing bills for quick reuse.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/bills",
+        "module": "Finance"
+    },
+    {
+        "name": "View Bill",
+        "keywords": ["bill details", "view charges", "student finance"],
+        "description": "Button available for each bill to view details.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/bills",
+        "module": "Finance"
+    },
+    {
+        "name": "Banks",
+        "keywords": ["finance banks", "bank setup", "student payments"],
+        "description": "Manage banks used for financial transactions.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/banks",
+        "module": "Finance"
+    },
+    {
+        "name": "Add Banks",
+        "keywords": ["add bank", "new bank", "finance setup"],
+        "description": "Add a new bank to the finance system.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/banks",
+        "module": "Finance"
+    },
+    {
+        "name": "Transflow Alt1",
+        "keywords": ["transaction flow", "finance setup", "alt1"],
+        "description": "Manage financial transaction flow (Alt1).",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/transflow-alt1",
+        "module": "Finance"
+    },
+    {
+        "name": "Create",
+        "keywords": ["create transaction flow", "add transflow", "finance"],
+        "description": "Create a new transaction flow under Transflow Alt1.",
+        "permissions_allowed": ["permission"],
+        "url": "/finance/setups/transflow-alt1",
+        "module": "Finance"
+    },
+    
+    // General Reports Module
+    {
+        "name": "General Reports",
+        "keywords": ["reports", "general", "overview", "analytics", "summary"],
+        "description": "Provides access to general reports and analytics across the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "General Reports"
+    },
+    
+    // Graduation Management Module
+    {
+        "name": "Graduation Cohort",
+        "keywords": ["graduation", "cohort", "batch", "students", "group"],
+        "description": "Manage student graduation cohorts and batches.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-batches",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Add Graduation Cohort",
+        "keywords": ["graduation", "add cohort", "create batch", "new graduation group"],
+        "description": "Create a new graduation cohort or batch of students.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-batches",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Graduation Report",
+        "keywords": ["graduation", "report", "student graduation", "summary"],
+        "description": "Generate and view graduation reports for students.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-report",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Generate Report",
+        "keywords": ["generate report", "graduation", "report creation"],
+        "description": "Button to generate a graduation report.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-report",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "View Reports",
+        "keywords": ["view reports", "graduation reports", "student report"],
+        "description": "Button to view each graduation report.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-report",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Setup",
+        "keywords": ["setup", "graduation payment", "configuration"],
+        "description": "Setup and configure graduation payments.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-payment/setup",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Add Bill",
+        "keywords": ["graduation bill", "add bill", "fees", "charges"],
+        "description": "Add a new graduation bill for students.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-payment/setup",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "View Bill",
+        "keywords": ["view bill", "graduation fees", "student bill"],
+        "description": "Button on each graduation bill to view details.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-payment/setup",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Add Item Type",
+        "keywords": ["item type", "graduation bill", "fees type"],
+        "description": "Manage item types within the graduation bill items.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-payment/setup",
+        "module": "Graduation Management"
+    },
+    {
+        "name": "Clearance Report",
+        "keywords": ["clearance", "graduation", "student clearance", "report"],
+        "description": "Generate and view clearance reports for graduation payments.",
+        "permissions_allowed": ["permission"],
+        "url": "/graduation/graduation-payment/report",
+        "module": "Graduation Management"
+    },
 ]
