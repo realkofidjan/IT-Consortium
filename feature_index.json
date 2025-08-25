@@ -97,6 +97,216 @@
         "module":"Student Management"
     },
 
+    // Campus Management Module
+    {
+        "name": "Manage Academic Years",
+        "keywords": ["academic year", "manage year", "school year", "session"],
+        "description": "View and manage existing academic years for the institution.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/academic-year",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Academic Year",
+        "keywords": ["academic year", "add year", "new year", "create year"],
+        "description": "Create and configure a new academic year.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/academic-year",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Semesters",
+        "keywords": ["semester", "term", "manage semester", "school term"],
+        "description": "View and manage semesters within academic years.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/semesters",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Semester",
+        "keywords": ["semester", "add semester", "new term"],
+        "description": "Add a new semester to an academic year.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/semesters",
+        "module": "Campus Management"
+    },
+    {
+        "name": "End Semester",
+        "keywords": ["semester", "close semester", "end term"],
+        "description": "Mark a semester as completed and close all related activities.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/semesters",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Campuses",
+        "keywords": ["campus", "manage campus", "school branch"],
+        "description": "View and manage institution campuses.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/campuses",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Campus",
+        "keywords": ["campus", "add campus", "new campus"],
+        "description": "Add and configure a new campus.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/campuses",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Stream",
+        "keywords": ["stream", "track", "department", "program stream"],
+        "description": "View and manage academic streams.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/streams",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Stream",
+        "keywords": ["stream", "add stream", "new stream"],
+        "description": "Add a new academic stream to the system.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/streams",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Units",
+        "keywords": ["unit", "course unit", "module", "subject"],
+        "description": "View and manage course units offered by the institution.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/units",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Units",
+        "keywords": ["unit", "add unit", "course unit", "subject"],
+        "description": "Add new course units to the institution’s curriculum.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/units",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Courses",
+        "keywords": ["course", "program", "degree", "manage courses"],
+        "description": "View and manage courses offered at the institution.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/courses",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Course",
+        "keywords": ["course", "add course", "new course", "program"],
+        "description": "Create and configure a new course for students.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/units",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Study Centers",
+        "keywords": ["study center", "learning center", "manage centers"],
+        "description": "View and manage affiliated study centers.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/study-center",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Study Center",
+        "keywords": ["study center", "add center", "new study center"],
+        "description": "Add a new affiliated study center.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/study-center",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Halls",
+        "keywords": ["hall", "building", "manage halls", "student halls"],
+        "description": "View and manage student halls and facilities.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/halls",
+        "module": "Campus Management"
+    },
+    {
+        "name": "View Affiliations",
+        "keywords": ["hall", "affiliations", "program link"],
+        "description": "Available in the actions dropdown for each hall to view program affiliations.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/halls",
+        "module": "Campus Management"
+    },
+    {
+        "name": "View Rooms",
+        "keywords": ["hall", "rooms", "view rooms", "student rooms"],
+        "description": "Available in the actions dropdown for each hall to view rooms.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/halls",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Block",
+        "keywords": ["hall", "block", "add block", "building block"],
+        "description": "Available in the actions dropdown for each hall to add a block.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/halls",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Rooms",
+        "keywords": ["hall", "rooms", "add rooms", "student housing"],
+        "description": "Available in the actions dropdown for each hall to add rooms.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/halls",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Affiliations",
+        "keywords": ["affiliation", "program", "manage affiliations"],
+        "description": "View and manage program affiliations.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/program-affiliations",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Affiliations",
+        "keywords": ["affiliation", "program", "add affiliation"],
+        "description": "Add a new affiliation to programs or campuses.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/program-affiliations",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Programs",
+        "keywords": ["program", "courses", "affiliation programs"],
+        "description": "View programs linked to affiliations.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/program-affiliations",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Program",
+        "keywords": ["program", "add program", "new program", "affiliation"],
+        "description": "For each affiliation, when programs are selected, a program can be added.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/program-affiliations",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Manage Entry Modes",
+        "keywords": ["entry mode", "admission mode", "manage entry"],
+        "description": "View and manage modes of student entry and admissions.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/entry-modes",
+        "module": "Campus Management"
+    },
+    {
+        "name": "Add Entry Mode",
+        "keywords": ["entry mode", "admission", "new entry"],
+        "description": "Add a new student entry or admission mode.",
+        "permissions_allowed": ["permission"],
+        "url": "/campus-management/entry-modes",
+        "module": "Campus Management"
+    },
+
     // Program Management Module
     {
         "name": "Manage Program",
