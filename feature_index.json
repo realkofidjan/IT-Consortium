@@ -1214,7 +1214,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "End Of Program Broadsheet",
@@ -1222,7 +1222,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "End Of Semester Broadsheet",
@@ -1230,7 +1230,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Examination Result",
@@ -1238,7 +1238,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Extended Broadsheet",
@@ -1246,7 +1246,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Final Results",
@@ -1254,7 +1254,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "IC List",
@@ -1262,7 +1262,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "National Service List",
@@ -1270,7 +1270,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Registered Student Profile",
@@ -1278,7 +1278,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Report for Senate",
@@ -1286,7 +1286,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Resit Registered List",
@@ -1294,7 +1294,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Resit Registration Stats",
@@ -1302,7 +1302,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Semester Plan",
@@ -1310,7 +1310,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Simple Grade Plan",
@@ -1318,7 +1318,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Statistic Report",
@@ -1326,7 +1326,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Student Loan Trust Fund",
@@ -1334,7 +1334,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Student Score Summary",
@@ -1342,7 +1342,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Trailed Courses",
@@ -1350,7 +1350,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Un-submitted Sheets",
@@ -1358,7 +1358,7 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
     },
     {
         "name": "Unassigned Sheets Report",
@@ -1366,7 +1366,39 @@
         "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
         "permissions_allowed": ["permission"],
         "url": "/reports/general-reports",
-        "module": "Assessment"
+        "module": "General Reports"
+    },
+    {
+        "name": "Student Profile Report",
+        "keywords": ["student profile report", "student report", "profile"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Student.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "General Reports"
+    },
+    {
+        "name": "Bills Report",
+        "keywords": ["bills report", "finance report", "student bills"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Finance.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "General Reports"
+    },
+    {
+        "name": "Financial Report Type 1",
+        "keywords": ["financial report type 1", "finance report", "student finance"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Finance.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "General Reports"
+    },
+    {
+        "name": "Financial Report Type 2",
+        "keywords": ["financial report type 2", "finance report", "student finance"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Finance.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "General Reports"
     },
 
     
