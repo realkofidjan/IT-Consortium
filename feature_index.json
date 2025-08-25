@@ -1200,6 +1200,175 @@
         "url": "/reports/general-reports",
         "module": "General Reports"
     },
+    {
+        "name": "Ad hoc",
+        "keywords": ["custom reports", "instant report", "quick report", "on-demand", "header button", "adhoc", "ad-hoc"],
+        "description": "Button in the header section to generate custom on-demand reports.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "General Reports"
+    },
+    {
+        "name": "Composite Semester Plan",
+        "keywords": ["composite semester plan", "assessment report", "general reports"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "End Of Program Broadsheet",
+        "keywords": ["end of program broadsheet", "program completion report", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "End Of Semester Broadsheet",
+        "keywords": ["end of semester broadsheet", "semester completion", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Examination Result",
+        "keywords": ["examination result", "exam scores", "student grades", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Extended Broadsheet",
+        "keywords": ["extended broadsheet", "detailed broadsheet", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Final Results",
+        "keywords": ["final results", "semester results", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "IC List",
+        "keywords": ["ic list", "incomplete courses list", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "National Service List",
+        "keywords": ["national service list", "service eligibility", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Registered Student Profile",
+        "keywords": ["registered student profile", "student information", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Report for Senate",
+        "keywords": ["report for senate", "senate report", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Resit Registered List",
+        "keywords": ["resit registered list", "resit students", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Resit Registration Stats",
+        "keywords": ["resit registration stats", "resit statistics", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Semester Plan",
+        "keywords": ["semester plan", "academic plan", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Simple Grade Plan",
+        "keywords": ["simple grade plan", "grading plan", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Statistic Report",
+        "keywords": ["statistic report", "assessment statistics", "student statistics"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Student Loan Trust Fund",
+        "keywords": ["student loan trust fund", "loan list", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Student Score Summary",
+        "keywords": ["student score summary", "score overview", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Trailed Courses",
+        "keywords": ["trailed courses", "courses to retake", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Un-submitted Sheets",
+        "keywords": ["un-submitted sheets", "pending sheets", "assessment report"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+    {
+        "name": "Unassigned Sheets Report",
+        "keywords": ["unassigned sheets report", "unassigned sheets", "assessment"],
+        "description": "This report is found in the General Reports module under the Find Report button, when the module selected is Assessment.",
+        "permissions_allowed": ["permission"],
+        "url": "/reports/general-reports",
+        "module": "Assessment"
+    },
+
     
     // Graduation Management Module
     {
